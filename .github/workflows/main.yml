@@ -34,5 +34,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd $GITHUB_WORKSPACE
-          echo <h1>AUTO GENERATED</h1>
-          makepkg --version
+          ls -a
+          echo hello > file
+          makepkg --help
